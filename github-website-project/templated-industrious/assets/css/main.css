@@ -1811,9 +1811,9 @@ ul.icons {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
-  background-image: url("../../images/banner.jpg");
+  background-image: url("../images/reversal.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
   border-top: 0;
   display: -ms-flexbox;
@@ -2343,7 +2343,7 @@ ul.icons {
     color: rgba(255, 255, 255, 0.5);
     text-decoration: none; }
     #footer a:hover {
-      color: #ce1b28; }
+      color: #30ce1b; }
   #footer .content {
     display: -moz-flex;
     display: -webkit-flex;
@@ -2820,3 +2820,28 @@ body.is-menu-visible #menu {
   transform: translateX(0);
   box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
   visibility: visible; }
+
+.content:hover {
+  border: rgba(0, 0, 0, 0.5) 2px solid;
+  background-color: teal;
+  color: white;
+}
+
+.content-footer {
+  height: 500px;
+  border: white 2px solid;
+  background-color: teal;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.content-footer a:hover {
+  color: yellow;
+
+}
+
+#footer {
+
+
+}
